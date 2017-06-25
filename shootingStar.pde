@@ -54,7 +54,6 @@ class shootingStar {
     yPosition += yVel;
     fill(255);
     ellipse(xPosition, yPosition, 60, 60);
-    //ellipse(targetX, targetY, 30, 30);
     if (abs(xPosition - targetX) < 15 && abs(yPosition - targetY) < 15) {
       println("Finished");
     }
